@@ -20,9 +20,10 @@
     "autoload": {
         "psr-4": { "Fosvn\\Bundle\\FactoryBundle\\": "" }
     },
+    "target-dir" : "Fosvn/Bundle/FactoryBundle",
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "master"
         }
     }
 }
