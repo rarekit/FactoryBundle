@@ -1,0 +1,32 @@
+{
+    "name": "fosvn/factory-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony FosvnFactoryBundle",
+    "keywords": ["Factory"],
+    "homepage": "https://github.com/fosvn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quang Tran",
+            "email": "quang.tran@fosvn.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "2.7.*",
+        "doctrine/orm": "~2.2,>=2.2.3,<2.5"
+    },
+    "require-dev": {
+        
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": { "Fosvn\\FactoryBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
