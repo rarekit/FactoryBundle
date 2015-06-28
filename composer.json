@@ -12,17 +12,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3.9",
-        "symfony/symfony": "2.7.*",
-        "doctrine/orm": "~2.2,>=2.2.3,<2.5"
     },
     "require-dev": {
-        
     },
     "suggest": {
     },
     "autoload": {
-        "psr-4": { "Fosvn\\FactoryBundle\\": "" }
+        "psr-4": { "Fosvn\\Bundle\\FactoryBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
